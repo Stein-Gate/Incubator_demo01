@@ -74,6 +74,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		995E9C5722B767E400DBD7FB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		995E9C5822B767F500DBD7FB /* Temp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Temp;
+			sourceTree = "<group>";
+		};
+		995E9C5922B767FB00DBD7FB /* History */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
 		99C97F5422B7201F0070589D = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +118,9 @@
 		99C97F5F22B7201F0070589D /* Incubator_demo01 */ = {
 			isa = PBXGroup;
 			children = (
+				995E9C5922B767FB00DBD7FB /* History */,
+				995E9C5822B767F500DBD7FB /* Temp */,
+				995E9C5722B767E400DBD7FB /* Main */,
 				99C97F6022B7201F0070589D /* AppDelegate.swift */,
 				99C97F6222B7201F0070589D /* ViewController.swift */,
 				99C97F6422B7201F0070589D /* Main.storyboard */,

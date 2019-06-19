@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		991855BE22B9CFC7006A3E62 /* ICTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991855BD22B9CFC7006A3E62 /* ICTabBarController.swift */; };
+		991855C022B9FCD9006A3E62 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991855BF22B9FCD9006A3E62 /* TreeNode.swift */; };
 		99C97F6122B7201F0070589D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C97F6022B7201F0070589D /* AppDelegate.swift */; };
 		99C97F6322B7201F0070589D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C97F6222B7201F0070589D /* ViewController.swift */; };
 		99C97F6622B7201F0070589D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C97F6422B7201F0070589D /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		991855BD22B9CFC7006A3E62 /* ICTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICTabBarController.swift; sourceTree = "<group>"; };
+		991855BF22B9FCD9006A3E62 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		99C97F5D22B7201F0070589D /* Incubator_demo01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Incubator_demo01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C97F6022B7201F0070589D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99C97F6222B7201F0070589D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		991855BC22B9C914006A3E62 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				991855BD22B9CFC7006A3E62 /* ICTabBarController.swift */,
+				991855BF22B9FCD9006A3E62 /* TreeNode.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		995E9C5722B767E400DBD7FB /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +131,7 @@
 		99C97F5F22B7201F0070589D /* Incubator_demo01 */ = {
 			isa = PBXGroup;
 			children = (
+				991855BC22B9C914006A3E62 /* Base */,
 				995E9C5922B767FB00DBD7FB /* History */,
 				995E9C5822B767F500DBD7FB /* Temp */,
 				995E9C5722B767E400DBD7FB /* Main */,
@@ -282,6 +296,8 @@
 			files = (
 				99C97F6322B7201F0070589D /* ViewController.swift in Sources */,
 				99C97F6122B7201F0070589D /* AppDelegate.swift in Sources */,
+				991855BE22B9CFC7006A3E62 /* ICTabBarController.swift in Sources */,
+				991855C022B9FCD9006A3E62 /* TreeNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +479,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = "liangneng.Incubator-demo01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        DLog(message: "123")
         return true
     }
 
@@ -42,5 +43,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+}
+
+/*
+ * 定义全局DLog，使用全局参数，传默认参数
+ */
+func DLog<T>(message:T,fileName:String = #file,funcName:String = #function,lineNum:Int = #line){
+    #if DEBUG
+    let file = (fileName as NSString).lastPathComponent
+    print("\(file):\(funcName):\(lineNum):\("打印内容"):\(message)")
+    #endif
 }
 

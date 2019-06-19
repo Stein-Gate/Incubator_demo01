@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		991855BE22B9CFC7006A3E62 /* ICTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991855BD22B9CFC7006A3E62 /* ICTabBarController.swift */; };
 		991855C022B9FCD9006A3E62 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991855BF22B9FCD9006A3E62 /* TreeNode.swift */; };
+		991855C222BA28E7006A3E62 /* TreeNodeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991855C122BA28E7006A3E62 /* TreeNodeHelper.swift */; };
 		99C97F6122B7201F0070589D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C97F6022B7201F0070589D /* AppDelegate.swift */; };
 		99C97F6322B7201F0070589D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C97F6222B7201F0070589D /* ViewController.swift */; };
 		99C97F6622B7201F0070589D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C97F6422B7201F0070589D /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		991855BD22B9CFC7006A3E62 /* ICTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICTabBarController.swift; sourceTree = "<group>"; };
 		991855BF22B9FCD9006A3E62 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		991855C122BA28E7006A3E62 /* TreeNodeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNodeHelper.swift; sourceTree = "<group>"; };
 		99C97F5D22B7201F0070589D /* Incubator_demo01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Incubator_demo01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C97F6022B7201F0070589D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99C97F6222B7201F0070589D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			children = (
 				991855BD22B9CFC7006A3E62 /* ICTabBarController.swift */,
 				991855BF22B9FCD9006A3E62 /* TreeNode.swift */,
+				991855C122BA28E7006A3E62 /* TreeNodeHelper.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				99C97F6122B7201F0070589D /* AppDelegate.swift in Sources */,
 				991855BE22B9CFC7006A3E62 /* ICTabBarController.swift in Sources */,
 				991855C022B9FCD9006A3E62 /* TreeNode.swift in Sources */,
+				991855C222BA28E7006A3E62 /* TreeNodeHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

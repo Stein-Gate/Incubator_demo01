@@ -10,6 +10,9 @@
 		991855BE22B9CFC7006A3E62 /* ICTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991855BD22B9CFC7006A3E62 /* ICTabBarController.swift */; };
 		991855C022B9FCD9006A3E62 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991855BF22B9FCD9006A3E62 /* TreeNode.swift */; };
 		991855C222BA28E7006A3E62 /* TreeNodeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991855C122BA28E7006A3E62 /* TreeNodeHelper.swift */; };
+		9920B16B22BB2B2000C6BCB7 /* TreeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9920B16A22BB2B2000C6BCB7 /* TreeTableView.swift */; };
+		9920B16E22BB2CD700C6BCB7 /* TreeNodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9920B16C22BB2CD700C6BCB7 /* TreeNodeTableViewCell.swift */; };
+		9920B16F22BB2CD700C6BCB7 /* TreeNodeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9920B16D22BB2CD700C6BCB7 /* TreeNodeTableViewCell.xib */; };
 		99C97F6122B7201F0070589D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C97F6022B7201F0070589D /* AppDelegate.swift */; };
 		99C97F6322B7201F0070589D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C97F6222B7201F0070589D /* ViewController.swift */; };
 		99C97F6622B7201F0070589D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C97F6422B7201F0070589D /* Main.storyboard */; };
@@ -40,6 +43,9 @@
 		991855BD22B9CFC7006A3E62 /* ICTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICTabBarController.swift; sourceTree = "<group>"; };
 		991855BF22B9FCD9006A3E62 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		991855C122BA28E7006A3E62 /* TreeNodeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNodeHelper.swift; sourceTree = "<group>"; };
+		9920B16A22BB2B2000C6BCB7 /* TreeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeTableView.swift; sourceTree = "<group>"; };
+		9920B16C22BB2CD700C6BCB7 /* TreeNodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNodeTableViewCell.swift; sourceTree = "<group>"; };
+		9920B16D22BB2CD700C6BCB7 /* TreeNodeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TreeNodeTableViewCell.xib; sourceTree = "<group>"; };
 		99C97F5D22B7201F0070589D /* Incubator_demo01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Incubator_demo01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C97F6022B7201F0070589D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99C97F6222B7201F0070589D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,8 +92,18 @@
 				991855BD22B9CFC7006A3E62 /* ICTabBarController.swift */,
 				991855BF22B9FCD9006A3E62 /* TreeNode.swift */,
 				991855C122BA28E7006A3E62 /* TreeNodeHelper.swift */,
+				9920B16A22BB2B2000C6BCB7 /* TreeTableView.swift */,
+				9920B16C22BB2CD700C6BCB7 /* TreeNodeTableViewCell.swift */,
+				9920B16D22BB2CD700C6BCB7 /* TreeNodeTableViewCell.xib */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		9920B16922BB2AF700C6BCB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		995E9C5722B767E400DBD7FB /* Main */ = {
@@ -134,6 +150,7 @@
 		99C97F5F22B7201F0070589D /* Incubator_demo01 */ = {
 			isa = PBXGroup;
 			children = (
+				9920B16922BB2AF700C6BCB7 /* View */,
 				991855BC22B9C914006A3E62 /* Base */,
 				995E9C5922B767FB00DBD7FB /* History */,
 				995E9C5822B767F500DBD7FB /* Temp */,
@@ -273,6 +290,7 @@
 				99C97F6B22B720210070589D /* LaunchScreen.storyboard in Resources */,
 				99C97F6822B720210070589D /* Assets.xcassets in Resources */,
 				99C97F6622B7201F0070589D /* Main.storyboard in Resources */,
+				9920B16F22BB2CD700C6BCB7 /* TreeNodeTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,8 +318,10 @@
 				99C97F6322B7201F0070589D /* ViewController.swift in Sources */,
 				99C97F6122B7201F0070589D /* AppDelegate.swift in Sources */,
 				991855BE22B9CFC7006A3E62 /* ICTabBarController.swift in Sources */,
+				9920B16B22BB2B2000C6BCB7 /* TreeTableView.swift in Sources */,
 				991855C022B9FCD9006A3E62 /* TreeNode.swift in Sources */,
 				991855C222BA28E7006A3E62 /* TreeNodeHelper.swift in Sources */,
+				9920B16E22BB2CD700C6BCB7 /* TreeNodeTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

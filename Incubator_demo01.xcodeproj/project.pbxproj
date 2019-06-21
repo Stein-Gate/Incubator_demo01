@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99098FBA22BCBEF8006E8615 /* DataInof.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99098FB922BCBEF8006E8615 /* DataInof.plist */; };
+		99098FBE22BCC012006E8615 /* TempVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99098FBD22BCC012006E8615 /* TempVC.swift */; };
+		99098FC322BCC1C2006E8615 /* WarnTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99098FC122BCC1C2006E8615 /* WarnTableViewCell.swift */; };
+		99098FC422BCC1C2006E8615 /* WarnTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99098FC222BCC1C2006E8615 /* WarnTableViewCell.xib */; };
 		991855BE22B9CFC7006A3E62 /* ICTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991855BD22B9CFC7006A3E62 /* ICTabBarController.swift */; };
 		991855C022B9FCD9006A3E62 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991855BF22B9FCD9006A3E62 /* TreeNode.swift */; };
 		991855C222BA28E7006A3E62 /* TreeNodeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991855C122BA28E7006A3E62 /* TreeNodeHelper.swift */; };
@@ -40,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		99098FB922BCBEF8006E8615 /* DataInof.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataInof.plist; sourceTree = "<group>"; };
+		99098FBD22BCC012006E8615 /* TempVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TempVC.swift; path = ViewController/TempVC.swift; sourceTree = "<group>"; };
+		99098FC122BCC1C2006E8615 /* WarnTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarnTableViewCell.swift; sourceTree = "<group>"; };
+		99098FC222BCC1C2006E8615 /* WarnTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WarnTableViewCell.xib; sourceTree = "<group>"; };
 		991855BD22B9CFC7006A3E62 /* ICTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICTabBarController.swift; sourceTree = "<group>"; };
 		991855BF22B9FCD9006A3E62 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		991855C122BA28E7006A3E62 /* TreeNodeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNodeHelper.swift; sourceTree = "<group>"; };
@@ -86,6 +94,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		99098FBB22BCBFD7006E8615 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		99098FBF22BCC0A9006E8615 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				99098FB922BCBEF8006E8615 /* DataInof.plist */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		99098FC022BCC19A006E8615 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				99098FC122BCC1C2006E8615 /* WarnTableViewCell.swift */,
+				99098FC222BCC1C2006E8615 /* WarnTableViewCell.xib */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
 		991855BC22B9C914006A3E62 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,13 +136,6 @@
 			children = (
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		995E9C5722B767E400DBD7FB /* Main */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Main;
 			sourceTree = "<group>";
 		};
 		995E9C5822B767F500DBD7FB /* Temp */ = {
@@ -150,17 +175,20 @@
 		99C97F5F22B7201F0070589D /* Incubator_demo01 */ = {
 			isa = PBXGroup;
 			children = (
+				99098FC022BCC19A006E8615 /* Main */,
+				99098FBF22BCC0A9006E8615 /* New Group */,
+				99098FBB22BCBFD7006E8615 /* ViewController */,
 				9920B16922BB2AF700C6BCB7 /* View */,
 				991855BC22B9C914006A3E62 /* Base */,
 				995E9C5922B767FB00DBD7FB /* History */,
 				995E9C5822B767F500DBD7FB /* Temp */,
-				995E9C5722B767E400DBD7FB /* Main */,
 				99C97F6022B7201F0070589D /* AppDelegate.swift */,
 				99C97F6222B7201F0070589D /* ViewController.swift */,
 				99C97F6422B7201F0070589D /* Main.storyboard */,
 				99C97F6722B720210070589D /* Assets.xcassets */,
 				99C97F6922B720210070589D /* LaunchScreen.storyboard */,
 				99C97F6C22B720210070589D /* Info.plist */,
+				99098FBD22BCC012006E8615 /* TempVC.swift */,
 			);
 			path = Incubator_demo01;
 			sourceTree = "<group>";
@@ -287,10 +315,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99098FBA22BCBEF8006E8615 /* DataInof.plist in Resources */,
 				99C97F6B22B720210070589D /* LaunchScreen.storyboard in Resources */,
 				99C97F6822B720210070589D /* Assets.xcassets in Resources */,
 				99C97F6622B7201F0070589D /* Main.storyboard in Resources */,
 				9920B16F22BB2CD700C6BCB7 /* TreeNodeTableViewCell.xib in Resources */,
+				99098FC422BCC1C2006E8615 /* WarnTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +351,8 @@
 				9920B16B22BB2B2000C6BCB7 /* TreeTableView.swift in Sources */,
 				991855C022B9FCD9006A3E62 /* TreeNode.swift in Sources */,
 				991855C222BA28E7006A3E62 /* TreeNodeHelper.swift in Sources */,
+				99098FBE22BCC012006E8615 /* TempVC.swift in Sources */,
+				99098FC322BCC1C2006E8615 /* WarnTableViewCell.swift in Sources */,
 				9920B16E22BB2CD700C6BCB7 /* TreeNodeTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

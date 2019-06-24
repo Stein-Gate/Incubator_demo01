@@ -55,7 +55,7 @@ class TreeNode{
     
     //是否是叶子节点
     func isLeaf() -> Bool{
-        return true
+        return children.count == 0
     }
     
     //获取level，用于设置节点内容的左偏移
@@ -72,7 +72,7 @@ class TreeNode{
     func setExpand(isExpand:Bool){
         self.isExpand = isExpand
         if !isExpand {
-            for var i in children{
+            for i in children{
                 i.setExpand(isExpand: isExpand)
             }
         }

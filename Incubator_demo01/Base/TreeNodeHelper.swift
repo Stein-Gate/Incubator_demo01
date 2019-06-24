@@ -119,10 +119,10 @@ class TreeNodeHelper{
             node.type = TreeNode.NODE_TYPE_G
             if node.isExpand{
                 //设置icon向下的箭头
-                node.icon = ""
+                node.icon = "tree_ex.png"
             }else{
                 //icon为向右的箭头
-                node.icon = ""
+                node.icon = "tree_ec.png"
             }
         }else{
             node.type = TreeNode.NODE_TYPE_N

@@ -69,7 +69,8 @@ class TreeTableView: UITableView ,UITableViewDelegate,UITableViewDataSource{
         
         if parentNode.isLeaf(){
             //如果是叶子节点就什么都不做
-            print("叶子节点被点击，无法展开")
+            print("节点名称为：\(String(describing: parentNode.name))")
+            print("节点描述为：\(String(describing: parentNode.desc))")
         }else{
             expandOrCollapse(&endPosition, node: parentNode)
             mNodes = TreeNodeHelper.sharedInstance.filterVisible(mAllNodes!) //更新可见节点
@@ -125,5 +126,13 @@ class TreeTableView: UITableView ,UITableViewDelegate,UITableViewDataSource{
         }
     }
     
-    
+    //禁止下拉
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        var offset = scrollView.contentOffset
+        if offset.y <= 100 {
+            self.bounces = false
+        }else{
+            self.bounces = true
+        }
+    }
 }

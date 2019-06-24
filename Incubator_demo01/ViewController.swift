@@ -29,7 +29,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             cell.warnName.text = "Tempture"
         }
         
-        cell.warnFloat.text = indexPath.row as? String
+        cell.warnFloat.text = String(indexPath.row)
         
         return cell
     }
@@ -41,6 +41,8 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         //
+        warnTable.delegate = self
+        warnTable.dataSource = self
     }
 
 

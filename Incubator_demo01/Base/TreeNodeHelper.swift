@@ -20,14 +20,24 @@ class TreeNodeHelper{
     
     //传入普通节点，排序后转换成node
     func getSortedNodes(_ groups:NSMutableArray,defaultExpandLevel:Int) -> [TreeNode]{
-        var result : [TreeNode] = []
-        
+        var result: [TreeNode] = []
+        let nodes = convetData2Node(groups)
+        let rootNodes = getRootNodes(nodes)
+        for item in rootNodes{
+            addNode(&result, node: item, defaultExpandLevel: defaultExpandLevel, currentLevel: 1)
+        }
         return result
     }
     
     //过滤出所有可见节点
     func filterVisible(_ nodes:[TreeNode]) -> [TreeNode] {
-        var result : [TreeNode] = []
+        var result: [TreeNode] = []
+        for item in nodes {
+            if item.isRoot() || item.isParentExpand() {
+                setNodeIcon(item)
+                result.append(item)
+            }
+        }
         return result
     }
     
